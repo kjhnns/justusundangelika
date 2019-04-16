@@ -14,6 +14,23 @@ import styled from 'util/style'
  * - `StaticQuery`: https://gatsby.app/staticquery
  */
 
+const CrewImage = () => (
+  <StaticQuery
+    query={graphql`
+      query {
+        placeholderImage: file(relativePath: { eq: "crew.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 300) {
+              ...GatsbyImageSharpFluid_tracedSVG
+            }
+          }
+        }
+      }
+    `}
+    render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} />}
+  />
+)
+
 const Image = () => (
   <StaticQuery
     query={graphql`
@@ -43,4 +60,4 @@ const SplashImage = () => (
   </Wrapper>
 )
 
-export default SplashImage
+export { SplashImage, CrewImage }

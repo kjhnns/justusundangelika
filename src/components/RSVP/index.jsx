@@ -1,21 +1,37 @@
 import React from 'react'
 import { Container } from 'components/Grid'
 import styled from 'util/style'
+import { Flex, Box } from '@rebass/grid'
 
 const Form = styled.form``
 
-const Label = styled.label``
-const Button = styled.button``
+const Input = styled.input`
+  color: #33343c;
+  border: solid 1px #33343c;
+  width: 300px;
+`
+
+const Button = styled.button`
+  color: #33343c;
+  border: solid 1px #33343c;
+  width: 400px;
+`
 
 const RSVP = () => (
   <Container>
-    <Form name="contact" netlify>
-      <Label>
-        Name <input type="text" name="name" />
-      </Label>
-      <Label>
-        Email <input type="email" name="email" />
-      </Label>
+    <Form name="rsvp" method="POST" data-netlify="true">
+      <Flex py="0.5em">
+        <Box width="100px">Name</Box>
+        <Box>
+          <Input type="text" name="name" />
+        </Box>
+      </Flex>
+      <Flex py="0.5em">
+        <Box width="100px">E-Mail</Box>
+        <Box>
+          <Input type="email" name="name" />
+        </Box>
+      </Flex>
       <Button type="submit">Send</Button>
     </Form>
   </Container>
