@@ -78,18 +78,6 @@ const Paragraph = styled.div`
   margin-bottom: 0;
 `
 
-const Line = styled.p`
-  color: #171717;
-  font-family: 'Arial', sans-serif;
-  letter-spacing: 0.025rem;
-  width: calc(100% + 0.025rem);
-  font-size: 1em;
-  line-height: 1.75;
-  font-weight: 400;
-  margin: 0;
-  padding: 0;
-`
-
 const IndexPage = () => (
   <Layout>
     <Wrapper>
@@ -108,12 +96,14 @@ const IndexPage = () => (
         <Headline>Zeitplan</Headline>
         <ResponsiveFlex>
           <Box width="300px">
-            <Line>Freitag, den 11.10.2019</Line>
-            <Line>
-              <Link href="http://www.neimeshof.de/">Neimeshof</Link>
-            </Line>
-            <Line>Stadtfeld 32 </Line>
-            <Line>47906 Kempen</Line>
+            <Flex flexDirection="column">
+              <Box>Freitag, den 11.10.2019</Box>
+              <Box>
+                <Link href="http://www.neimeshof.de/">Neimeshof</Link>
+              </Box>
+              <Box>Stadtfeld 32 </Box>
+              <Box>47906 Kempen</Box>
+            </Flex>
           </Box>
           <Box>
             <Flex flexDirection="row">
