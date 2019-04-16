@@ -49,6 +49,11 @@ const Headline = styled.h1`
   }
 `
 
+const Link = styled.a`
+  color: #444;
+  text-decoration-skip: objects;
+`
+
 const SubHeadline = styled.h2`
   font-family: Roboto;
   padding: 0;
@@ -104,7 +109,9 @@ const IndexPage = () => (
         <ResponsiveFlex>
           <Box width="300px">
             <Line>Freitag, den 11.10.2019</Line>
-            <Line>Neimeshof</Line>
+            <Line>
+              <Link href="http://www.neimeshof.de/">Neimeshof</Link>
+            </Line>
             <Line>Stadtfeld 32 </Line>
             <Line>47906 Kempen</Line>
           </Box>
@@ -195,14 +202,20 @@ const IndexPage = () => (
 
         <ResponsiveFlex2 mt="1em">
           <Box width="150px">Maria Reh</Box>
-          <Box width="250px">maria.julia.reh@gmail.com</Box>
+          <Box width="250px">
+            <Link href="mailto:maria.julia.reh@gmail.com">
+              maria.julia.reh@gmail.com
+            </Link>
+          </Box>
           <Box width="150px">+49 170 5644375</Box>
         </ResponsiveFlex2>
 
-        <ResponsiveFlex2>
+        <ResponsiveFlex2 mt="1em">
           <Box width="150px">Jean Dallest</Box>
-          <Box width="250px">jdallest@gmail.com</Box>
-          <Box width="150px">+41 768121991</Box>
+          <Box width="250px">
+            <Link href="mailto:jdallest@gmail.com">jdallest@gmail.com</Link>
+          </Box>
+          <Box width="150px">+41 768 121991</Box>
         </ResponsiveFlex2>
         <Box pt="2em">
           <CrewImage />
