@@ -3,7 +3,8 @@ import React from 'react'
 import Layout from 'components/Layout'
 import SEO from 'components/SEO'
 import RSVP from 'components/RSVP'
-import { SplashImage, CrewImage } from 'components/Image'
+import SplashImage from 'components/Image/SplashImage'
+import CrewImage from 'components/Image/CrewImage'
 
 import { Flex, Box } from '@rebass/grid'
 
