@@ -1,8 +1,8 @@
 module.exports = {
   siteUrl: `https://www.justusundangelika.de`,
-  siteTitle: `Hochzeit von Justus und Angelika`,
-  siteTitleAlt: `Justus und Angelika`,
-  siteTitleShort: `Justus und Angelika`,
+  siteTitle: `Justus und Angelika`,
+  siteTitleAlt: `Angelika und Justus`,
+  siteTitleShort: `Angelika und Justus`,
   siteDescription: `Hier findet ihr alle Informationen zur Hochzeit von Justus und Angelika.`,
   manifest: {
     themeColor: `#fff`,

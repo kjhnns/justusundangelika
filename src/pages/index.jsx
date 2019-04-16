@@ -93,7 +93,7 @@ const Line = styled.p`
 const IndexPage = () => (
   <Layout>
     <Wrapper>
-      <SEO title="Hochzeit Angelika und Justus" />
+      <SEO title="Infos zur Hochzeit" />
       <Box>
         <Headline>Angelika &amp; Justus</Headline>
         <Paragraph>
