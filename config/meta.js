@@ -1,17 +1,17 @@
 module.exports = {
-  siteUrl: `https://www.example.com`,
-  siteTitle: `Gatsby Starter Styled`,
-  siteTitleAlt: `Gatsby Starter Styled`,
-  siteTitleShort: `Gatsby Styled`,
-  siteDescription: `Kick off your next, great Gatsby project with this starter.`,
+  siteUrl: `https://www.justusundangelika.de`,
+  siteTitle: `Hochzeit von Justus und Angelika`,
+  siteTitleAlt: `Justus und Angelika`,
+  siteTitleShort: `Justus und Angelika`,
+  siteDescription: `Hier findet ihr alle Informationen zur Hochzeit von Justus und Angelika.`,
   manifest: {
-    themeColor: `#253688`,
-    backgroundColor: `#253688`,
+    themeColor: `#fff`,
+    backgroundColor: `#fff`,
   },
-  googleAnalyticsId: `UA-XXXXX`,
-  facebook: `Your optional Facebook App ID`,
-  twitter: `Your Twitter username`,
+  googleAnalyticsId: ``,
+  facebook: ``,
+  twitter: ``,
   schema: {
-    author: `Jane Doe`,
+    author: `Johannes`,
   },
 }

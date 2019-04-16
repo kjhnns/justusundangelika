@@ -1,13 +1,4 @@
-<p align="center">
-  <a href="https://github.com/gregoralbrecht/gatsby-starter-styled">
-    <img alt="gatsby-starter-styled" src="src/images/favicon.png" width="80px" />
-  </a>
-</p>
-<h1 align="center">
-  gatsby-starter-styled
-</h1>
-
-Yet another Gatsby starter boilerplate. I built this for my personal use, but maybe someone finds it helpful.
+# Wedding Website of Justus & Angelika
 
 ## Features
 

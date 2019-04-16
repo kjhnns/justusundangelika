@@ -1,6 +1,7 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
+import styled from 'util/style'
 
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
@@ -17,7 +18,7 @@ const Image = () => (
   <StaticQuery
     query={graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "gatsby-astronaut.png" }) {
+        placeholderImage: file(relativePath: { eq: "splash.jpg" }) {
           childImageSharp {
             fluid(maxWidth: 300) {
               ...GatsbyImageSharpFluid_tracedSVG
@@ -29,4 +30,17 @@ const Image = () => (
     render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} />}
   />
 )
-export default Image
+
+const Wrapper = styled.div`
+  padding-top: 4em;
+  padding-bottom: 4em;
+  max-width: 400px;
+`
+
+const SplashImage = () => (
+  <Wrapper>
+    <Image />
+  </Wrapper>
+)
+
+export default SplashImage

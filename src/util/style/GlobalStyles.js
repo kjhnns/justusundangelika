@@ -3,7 +3,9 @@ import { createGlobalStyle } from './index'
 const GlobalStyles = createGlobalStyle`
   * {
     box-sizing: border-box;
+    font-size: 16px;
   }
+
 
   html,
   body {
