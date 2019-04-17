@@ -77,7 +77,7 @@ class RSVP extends React.Component {
     fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: encode({ 'form-name': 'contact', ...this.state }),
+      body: encode({ 'form-name': 'rsvp', ...this.state }),
     })
       .then(() => this.setState({ state: states.SUCCESS }))
       .catch(() => this.setState({ state: states.ERROR }))

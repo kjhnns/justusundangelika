@@ -174,7 +174,7 @@ const IndexPage = () => (
         <Paragraph>
           Da unsere Feier eine reine Abendveranstaltung (mit lauter Musik) ist
           und die Location limitierte Plätze hat, können wie leider außerhalb
-          der direkten Familie keine Kinder einladen.{' '}
+          der direkten Familie keine Kinder einladen.
         </Paragraph>
 
         <SubHeadline>Dresscode</SubHeadline>
