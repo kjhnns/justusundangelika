@@ -98,7 +98,7 @@ class RSVP extends React.Component {
     return (
       <Container>
         {(state === states.PRISTINE || state === states.ERROR) && (
-          <Form onSubmit={this.handleSubmit}>
+          <Form data-netlify="true" name="rsvp" onSubmit={this.handleSubmit}>
             <Flex py="0.5em">
               <Label>Anzahl Personen</Label>
               <Box width="50px">
