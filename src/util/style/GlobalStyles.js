@@ -13,6 +13,8 @@ const GlobalStyles = createGlobalStyle`
     min-width: 320px;
     padding: 0;
     margin: 0;
+background: url("../../images/bg.jpg");
+
   }
 `
 
