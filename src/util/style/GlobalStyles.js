@@ -1,4 +1,5 @@
 import { createGlobalStyle } from './index'
+import logo from '../../images/bg.jpg'
 
 const GlobalStyles = createGlobalStyle`
   * {
@@ -13,7 +14,7 @@ const GlobalStyles = createGlobalStyle`
     min-width: 320px;
     padding: 0;
     margin: 0;
-background: url("../../images/bg.jpg");
+background: ${logo};
 
   }
 `
