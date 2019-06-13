@@ -136,9 +136,8 @@ const IndexPage = () => (
         </Paragraph>
         <Paragraph>
           Falls ihr uns etwas schenken möchtet, würden wir uns sehr über einen
-          Beitrag für unsere geplanten Flitterwochen freuen. Auf folgender
-          Website (hier kommt Website als Link) könnt ihr individuell einen
-          Beitrag dazu auswählen.
+          Beitrag für unsere geplanten Flitterwochen freuen. <Link href="https://patchworkit.com/26439/JustusundAngelika">Auf dieser
+          Website könnt ihr individuell einen Beitrag dazu auswählen.</Link>
         </Paragraph>
       </Box>
       <Box>
